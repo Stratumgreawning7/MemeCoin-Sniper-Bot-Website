@@ -1,6 +1,6 @@
 # Meme Sniper Bot — Exchange-style landing page (SEO edition)
 
-Responsive, exchange-inspired landing page for Meme Sniper Bot, with expanded on-page SEO and crawl metadata.
+Responsive, exchange-inspired landing page for Meme Sniper Bot, with expanded on-page SEO and crawl metadata
 
 ## Included
 - Responsive landing page and exchange-style product preview
