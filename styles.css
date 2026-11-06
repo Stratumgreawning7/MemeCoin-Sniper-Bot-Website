@@ -21,3 +21,48 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var
 .product-info-copy p:last-child{grid-column:1/-1;max-width:760px}
 .product-info-copy strong{color:#e7eee8;font-weight:600}
 @media(max-width:760px){.product-info-section{padding-top:70px;padding-bottom:70px}.product-info-copy{grid-template-columns:1fr;gap:14px}.product-info-copy p:last-child{grid-column:auto}}
+
+
+/* Header download button + visible ZIP password */
+.nav-download-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border: 1px solid var(--line-green);
+  border-radius: 5px;
+  background: rgba(163, 255, 95, .07);
+  white-space: nowrap;
+}
+
+.nav-password-label {
+  color: var(--muted);
+  font: 9px var(--mono);
+  letter-spacing: .08em;
+}
+
+.nav-password strong {
+  color: var(--green);
+  font: 600 14px var(--mono);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 760px) {
+  .nav-download-group {
+    gap: 6px;
+  }
+
+  .nav-password {
+    padding: 6px 8px;
+  }
+
+  .nav-password-label {
+    display: none;
+  }
+}
