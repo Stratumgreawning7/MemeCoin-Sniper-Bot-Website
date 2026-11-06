@@ -1,0 +1,13 @@
+{
+  "name": "Meme Sniper Bot",
+  "short_name": "Meme Sniper",
+  "description": "Free Windows software for meme coin monitoring and crypto trading workflow organization.",
+  "start_url": "/MemeCoin-Sniper-Bot-Website/",
+  "scope": "/MemeCoin-Sniper-Bot-Website/",
+  "display": "standalone",
+  "background_color": "#090c0a",
+  "theme_color": "#090c0a",
+  "icons": [
+    {"src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

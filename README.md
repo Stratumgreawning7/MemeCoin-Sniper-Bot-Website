@@ -1,28 +1,38 @@
-# MemeCoin Sniper Bot — GitHub Pages
+# Meme Sniper Bot — Exchange-style landing page (SEO edition)
 
-Premium-style static landing page for the MemeCoin Sniper Bot project.
+Responsive, exchange-inspired landing page for Meme Sniper Bot, with expanded on-page SEO and crawl metadata.
 
-## Publish with GitHub Pages
+## Included
+- Responsive landing page and exchange-style product preview
+- Illustrative candlestick chart, order book, market summary and token watchlist demo
+- Searchable, filterable and sortable sample token table
+- Working ZIP password copy interaction
+- Descriptive title and meta description
+- Canonical URL, robots directives, hreflang, Open Graph and X/Twitter card metadata
+- 1200 × 630 social preview image (`assets/og-image.png`)
+- JSON-LD graph for Organization, WebSite and SoftwareApplication
+- `robots.txt`, XML sitemap and web app manifest
+- Semantic product explanation and expanded FAQ content
 
-1. Create a **public** repository named `MemeCoin-Sniper-Bot-Website` under `Stratumgreawning7`.
-2. Upload every file and folder from this package to the repository root (keep `assets/`).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose branch `main`, folder `/(root)`, then click **Save**.
-6. Wait for deployment. Expected URL:
-   `https://stratumgreawning7.github.io/MemeCoin-Sniper-Bot-Website/`
+## Important accuracy notes
+- Chart, ticker, order-book and token-table values are illustrative sample data, not live market quotes.
+- No exchange API or live market feed is connected to this landing page.
+- Product feature descriptions are intentionally limited to the information supplied for the project. Do not add claims about supported exchanges, chains, audited security, profitability, execution speed, or specific integrations unless verified against the actual application.
+- No reviews, ratings, awards, user counts, or testimonials are fabricated or marked up.
 
-## Add your screenshot
+## Canonical URL — verify before publishing
+The current canonical and sitemap URL is set to:
+`https://stratumgreawning7.github.io/MemeCoin-Sniper-Bot-Website/`
 
-Copy the screenshot named `sniper_app.png` into the `assets/` folder. The preview section will display it automatically. If your screenshot has a different filename, either rename it to `sniper_app.png` or update the image path in `index.html`.
+If the final public site uses another domain or repository path, update **all** absolute URLs in `index.html`, `robots.txt`, `sitemap.xml`, and JSON-LD before deployment. A canonical URL must point to the actual preferred public URL, not a guessed or staging URL.
 
-## SEO
+## Publish and indexing checklist
+1. Publish the contents of this folder to the root of the GitHub Pages repository.
+2. Open the canonical URL in a private browser and confirm HTTPS, page content, CSS, scripts, favicon and `assets/og-image.png` all load successfully.
+3. In Google Search Console, add/verify the site property, inspect the homepage URL, test the live URL, and submit `/MemeCoin-Sniper-Bot-Website/sitemap.xml`.
+4. In Bing Webmaster Tools, verify the site and submit the sitemap.
+5. Check that the canonical URL, rendered page title, description and social preview match the deployed site.
+6. Recheck Core Web Vitals and mobile usability after deployment. Fix actual field or lab issues rather than adding arbitrary SEO scripts.
 
-The page includes a title, description, canonical URL, Open Graph/Twitter metadata, `robots.txt`, and `sitemap.xml`. After the site is live:
-
-1. Add the site URL as a **URL-prefix property** in Google Search Console.
-2. Verify ownership using the available HTML file or meta-tag method.
-3. Submit `sitemap.xml` in the Sitemaps section.
-4. Use URL Inspection → **Request indexing** for the homepage.
-
-Indexing is not guaranteed and may take time. The landing page uses cautious copy and does not promise trading performance. Update the canonical and sitemap URLs if you choose a different repository name.
+## Run locally
+Open `index.html` in a browser. A local static server is recommended for testing paths and metadata.
