@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stratumgreawning7.github.io/MemeCoin-Sniper-Bot-Website/sitemap.xml
