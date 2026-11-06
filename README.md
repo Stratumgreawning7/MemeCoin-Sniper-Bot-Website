@@ -18,7 +18,7 @@ Responsive, exchange-inspired landing page for Meme Sniper Bot, with expanded on
 - Chart, ticker, order-book and token-table values are illustrative sample data, not live market quotes.
 - No exchange API or live market feed is connected to this landing page.
 - Product feature descriptions are intentionally limited to the information supplied for the project. Do not add claims about supported exchanges, chains, audited security, profitability, execution speed, or specific integrations unless verified against the actual application.
-- No reviews, ratings, awards, user counts, or testimonials are fabricated or marked up.
+- No reviews, ratings, awards, user counts, or testimonials are fabricated or marked up
 
 ## Canonical URL — verify before publishing
 The current canonical and sitemap URL is set to:
