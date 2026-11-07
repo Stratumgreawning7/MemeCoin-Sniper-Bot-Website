@@ -66,3 +66,14 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var
     display: none;
   }
 }
+
+/* Product-site refresh: premium terminal aesthetic */
+:root{--bg:#070a12;--panel:#0d1321;--line:rgba(143,165,210,.16);--text:#f3f6ff;--muted:#9aa8c1;--accent:#55e6cf;--accent2:#8c79ff}
+body{background:radial-gradient(ellipse at 70% -10%,rgba(72,91,190,.18),transparent 42%),#070a12;color:var(--text)}
+.market-strip{background:#080d17;border-bottom:1px solid var(--line)}.strip-label{color:#9eacc4}.live-dot{background:#55e6cf;box-shadow:0 0 12px #55e6cf}
+.site-header{background:rgba(7,10,18,.88);border-bottom:1px solid var(--line);backdrop-filter:blur(18px)}.brand em{color:var(--accent)}
+.button{background:linear-gradient(110deg,#5ce9d2,#8a79ff);color:#071018;border:0;box-shadow:0 8px 30px #5ce9d226}.button:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.hero{position:relative;isolation:isolate;min-height:620px}.hero:after{content:"";position:absolute;inset:0 0 0 42%;z-index:-1;background:url('./assets/hero-crypto-terminal.png') center/cover no-repeat;opacity:.78;mask-image:linear-gradient(90deg,transparent,#000 22%,#000 78%,transparent)}.hero-copy{max-width:660px}.hero h1 span{color:var(--accent);text-shadow:0 0 34px #55e6cf2b}.hero-text,.hero-lead{color:#b9c4d9}.section-shell{max-width:1240px}.features-section,.requirements-section,.faq-section,.product-info-section{border-top:1px solid var(--line)}.feature-card,.requirement,.download-card,.terminal-window,.market-card{background:linear-gradient(145deg,rgba(17,25,43,.94),rgba(9,14,25,.94));border:1px solid var(--line);border-radius:20px;box-shadow:0 18px 70px #0002}.feature-card:hover{border-color:#55e6cf66;transform:translateY(-3px)}.eyebrow{color:var(--accent)}.muted-slash{color:var(--accent2)}.download-card{background:linear-gradient(125deg,#111a2b,#0a101c)}.main-nav a:hover,.github-link:hover{color:var(--accent)}.product-info-copy{max-width:920px;color:#aab7cf;line-height:1.85}.requirements-note{color:#9aa8c1}
+.hero-art{width:100%;border:1px solid var(--line);border-radius:22px;box-shadow:0 20px 90px #03050a;display:block}
+.site-footer{border-top:1px solid var(--line)}
+@media(max-width:850px){.hero:after{inset:25% 0 0 0;opacity:.35;mask-image:linear-gradient(180deg,transparent,#000 20%,#000 85%,transparent)}.hero{min-height:unset}}
